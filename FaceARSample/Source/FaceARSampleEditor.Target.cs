@@ -9,6 +9,6 @@ public class FaceARSampleEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "FaceARSample" } );
+        ExtraModuleNames.AddRange( new string[] { "FaceARSample" } );
 	}
 }

@@ -6,6 +6,11 @@
 void AMyDefaultPawn::BeginPlay()
 {
 	Super::BeginPlay();
+
+#if WITH_EDITOR
+	//GetWorld()->ChangeFeatureLevel(ERHIFeatureLevel::ES2);
+#endif
+
 }
 
 void AMyDefaultPawn::PostLoadSubobjects(FObjectInstancingGraph* OuterInstanceGraph)

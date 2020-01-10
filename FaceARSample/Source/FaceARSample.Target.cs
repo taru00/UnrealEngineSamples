@@ -9,6 +9,6 @@ public class FaceARSampleTarget : TargetRules
 	{
 		Type = TargetType.Game;
 
-		ExtraModuleNames.AddRange( new string[] { "FaceARSample" } );
+        ExtraModuleNames.AddRange( new string[] { "FaceARSample" } );
 	}
 }
